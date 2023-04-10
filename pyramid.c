@@ -11,7 +11,10 @@ int main(void)
 
     // Step ( 2 ) : Draw the Pyramid (Hint* : Use nested for loop)
 
-    printf("####\n");
+   for(int i=0;i<size;i++)
+   {
+    printf("#\n");
+   }
 
 }
 
