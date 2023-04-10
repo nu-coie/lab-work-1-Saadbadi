@@ -7,13 +7,13 @@ int main(void)
 // Accept Input From user (char), where (a) stands for "Addition", (m) for "Multiplications," and (d) for "Division,"
 
 char input = get_char("op:   ");
- int x = get_int("X:   ");
-int y = get_int("Y:    ");
+ long x = get_long("X:   ");
+long y = get_long("Y:    ");
 
 if (input == 'a' || input == 'A')
 {
-    int z = x + y;
-    printf("%i\n",z);
+    long z = x + y;
+    printf("%li\n",z);
 }
 
 
